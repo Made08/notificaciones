@@ -2,6 +2,7 @@ package co.madelem.notificaciones.logica;
 
 import co.madelem.notificaciones.dominio.Usuario;
 import co.madelem.notificaciones.dominio.TipoNotificacion;
+import co.madelem.notificaciones.patrones.FabricaCanalNotificacion;
 
 import java.util.List;
 

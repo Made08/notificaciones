@@ -13,6 +13,8 @@ public class Usuario {
         this.email = email;
         this.numeroTelefono = numeroTelefono;
         this.preferenciasNotificacion = preferenciasNotificacion;
+
+        System.out.println(this);
     }
 
     public String getNombreUsuario() {
@@ -29,5 +31,11 @@ public class Usuario {
 
     public List<TipoNotificacion> getPreferenciasNotificacion() {
         return preferenciasNotificacion;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario [nombreUsuario=" + nombreUsuario + ", email=" + email + ", numeroTelefono=" + numeroTelefono
+                + ", preferenciasNotificacion=" + preferenciasNotificacion + "]";
     }
 }

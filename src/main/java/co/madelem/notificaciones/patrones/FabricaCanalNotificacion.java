@@ -6,7 +6,7 @@ import co.madelem.notificaciones.logica.CanalSMS;
 import co.madelem.notificaciones.logica.CanalPush;
 import co.madelem.notificaciones.logica.CanalNotificacion;
 
-public class Canalnotificacionfactory {
+public class FabricaCanalNotificacion {
     public static CanalNotificacion crearCanal(TipoNotificacion tipo) {
         switch (tipo) {
             case EMAIL:
