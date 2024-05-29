@@ -3,9 +3,6 @@ package co.madelem.notificaciones.dominio;
 import java.util.List;
 
 public class Usuario {
-
-// Clase que representa a un usuario y sus preferencias de notificación
-public class Usuario {
     private String nombreUsuario;
     private String email;
     private String numeroTelefono;
@@ -33,6 +30,4 @@ public class Usuario {
     public List<TipoNotificacion> getPreferenciasNotificacion() {
         return preferenciasNotificacion;
     }
-}
-
 }

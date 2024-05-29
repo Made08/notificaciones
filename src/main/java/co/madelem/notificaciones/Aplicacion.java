@@ -5,7 +5,7 @@ import co.madelem.dominio.TipoNotificacion;
 
 import java.util.Arrays;
 
-public class AppNotificaciones {
+public class Aplicacion {
     // Clase principal que ejecuta un ejemplo de uso del sistema de notificaciones
     public class Principal {
         public static void main(String[] args) {
