@@ -1,11 +1,9 @@
 package co.madelem.notificaciones.logica;
 
-import co.madelem.complejo.dominio.Usuario;
-import co.madelem.complejo.dominio.TipoNotificacion;
+import co.madelem.notificaciones.dominio.Usuario;
+import co.madelem.notificaciones.dominio.TipoNotificacion;
 
 import java.util.List;
-
-public class ServicioNotificaciones {
 
 // Clase que gestiona el envío de notificaciones a los usuarios
 public class ServicioNotificaciones {
@@ -16,6 +14,4 @@ public class ServicioNotificaciones {
             canal.enviarNotificacion(mensaje, usuario);
         }
     }
-}
-
 }

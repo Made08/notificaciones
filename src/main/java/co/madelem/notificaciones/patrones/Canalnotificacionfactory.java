@@ -1,4 +1,10 @@
-package co.madelem.notificaciones;
+package co.madelem.notificaciones.patrones;
+
+import co.madelem.notificaciones.dominio.TipoNotificacion;
+import co.madelem.notificaciones.logica.CanalEmail;
+import co.madelem.notificaciones.logica.CanalSMS;
+import co.madelem.notificaciones.logica.CanalPush;
+import co.madelem.notificaciones.logica.CanalNotificacion;
 
 public class Canalnotificacionfactory {
     public static CanalNotificacion crearCanal(TipoNotificacion tipo) {
